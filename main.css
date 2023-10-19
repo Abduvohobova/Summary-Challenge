@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2? family= Hanken+Grotesk:wght@500;700;800 & family= Lato:wght@300;400;700;900 & display= almashtirish");
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background: hsl(0, 0%, 100%);
+}
+body .container {
+  max-width: 735px;
+  border-radius: 30px;
+  display: flex;
+  box-shadow: 20px 25px 40px hsla(252, 100%, 67%, 0.1);
+  margin-top: 12.5vh;
+}
+body .container .blue {
+  width: 100%;
+  max-width: 368px;
+  background-color: hsla(241, 81%, 54%, 0.9);
+  border-radius: 30px;
+  text-align: center;
+  padding: 44px 45px 60px;
+  margin: 0;
+}
+body .container .blue h4 {
+  color: hsl(241, 100%, 89%);
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+body .container .blue .circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 66px;
+  margin-top: 40px;
+  background: linear-gradient(hsl(256, 72%, 46%), hsla(241, 72%, 46%, 0));
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+body .container .blue .circle h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 56px;
+  color: #fff;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 10px;
+}
+body .container .blue .circle span {
+  color: hsl(255, 100%, 85%);
+}
+body .container .blue h3 {
+  margin-top: 35px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+body .container .blue p {
+  font-size: 18px;
+  padding-top: 44px;
+  color: hsl(241, 100%, 89%);
+  font-weight: 700;
+}
+body .container .summary {
+  width: 100%;
+  max-width: 368px;
+  padding: 44px 40px 46px 40px;
+  margin: 0;
+}
+body .container .summary h1 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+body .container .summary .boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 30px;
+}
+body .container .summary .boxes .box {
+  width: 100%;
+  max-width: 368px;
+  display: flex;
+  justify-content: space-between;
+  padding: 18px;
+  border-radius: 10px;
+}
+body .container .summary .boxes .box .card {
+  margin: 0;
+  display: flex;
+  gap: 12px;
+}
+body .container .summary .boxes .box .card p {
+  font-weight: 700;
+  font-size: 18px;
+}
+body .container .summary .boxes .box h4 {
+  margin: 0;
+  margin-right: 0px;
+  color: hsl(224, 30%, 60%);
+}
+body .container .summary .boxes .box h4 span {
+  color: #000;
+}
+body .container .summary button {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 22px;
+  margin-top: 41px;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #fff;
+  background-color: hsl(224, 30%, 27%);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+body .container .summary button:active {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    padding: 0;
+  }
+  body .container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  body .container .blue {
+    width: 100%;
+    max-width: 391px;
+    border-radius: 0 0 30px 30px;
+    padding: 26px 60px 40px;
+  }
+  body .container .blue .circle {
+    margin-top: 20px;
+  }
+  body .container .blue h3 {
+    margin-top: 15px;
+  }
+  body .container .blue p {
+    padding-top: 10px;
+    font-size: 16px;
+  }
+  body .container .summary {
+    width: 100%;
+    max-width: 391px;
+    padding: 28px 30px 30px;
+  }
+  body .container .summary h1 {
+    font-size: 18px;
+  }
+  body .container .summary button {
+    margin-top: 24px;
+  }
+}/*# sourceMappingURL=main.css.map */
